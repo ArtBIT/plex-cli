@@ -21,33 +21,25 @@ Plex command line interface. A simple script to control your Plex client.
 Usage: plex \[\<command\>\]
 
 Available commands:
-- up            Navigate up
-- down          Navigate down
-- left          Navigate left
-- right         Navigate right
-- back          Navigate back
-- menu          Open menu
-- select        Select current option
-- rewind        Rewind the playback 
-- bigrewind     Rewind the playback more
-- forward       Rewind the playback 
-- bigforward    Rewind the playback more
-- play          Playback play
-- stop          Playback stop
-- osd           Toggle OSD
+- `up`            _Navigate up_
+- `down`          _Navigate down_
+- `left`          _Navigate left_
+- `right`         _Navigate right_
+- `back`          _Navigate back_
+- `menu`          _Open menu_
+- `select`        _Select current option_
+- `rewind`        _Rewind the playback _
+- `bigrewind`     _Rewind the playback more_
+- `forward`       _Rewind the playback _
+- `bigforward`    _Rewind the playback more_
+- `play`          _Playback play_
+- `stop`          _Playback stop_
+- `osd`           _Toggle OSD_
 
 ## Examples:
-- plex play
-- plex pause
-- plex stop
-
-## Contributing
-
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+- `plex play`
+- `plex pause`
+- `plex stop`
 
 ## License
 
