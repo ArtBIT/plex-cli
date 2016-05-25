@@ -26,10 +26,10 @@
 ###
 
 # The IP of the Plex Media Server
-SERVER=192.168.0.107 
+SERVER=127.0.0.1
 
 # The IP address of the Plex client that you wish to control
-CLIENT=192.168.0.100 
+CLIENT=192.168.1.123 
 
 case $1 in
     up)
@@ -81,4 +81,5 @@ case $1 in
         ;;
 esac
 
-curl "http://{$SERVER}:32400/system/players/{$CLIENT}/{$COMMAND}"
+URL="http://{$SERVER}:32400/system/players/{$CLIENT}/{$COMMAND}"
+wget $URL 2>/dev/null || curl -O $URL
