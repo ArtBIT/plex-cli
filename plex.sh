@@ -81,5 +81,5 @@ case $1 in
         ;;
 esac
 
-URL="http://{$SERVER}:32400/system/players/{$CLIENT}/{$COMMAND}"
+URL="http://${SERVER}:32400/system/players/${CLIENT}/${COMMAND}"
 wget $URL 2>/dev/null || curl -O $URL
