@@ -18,7 +18,7 @@ Plex command line interface. A simple script to control your Plex client.
 
 ## Usage
 
-Usage: plex [<command>]
+Usage: plex \[\<command\>\]
 
 Available commands:
 - up            Navigate up
